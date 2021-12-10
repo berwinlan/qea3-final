@@ -20,6 +20,7 @@
     
     
     
+    
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
@@ -40,21 +41,23 @@
 </defs></svg>
             </a>
           </div>
-          <div class="u-nav-container">
+          <div class="u-custom-menu u-nav-container">
             <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Overview.html" style="padding: 10px 20px;">Overview</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Technical-Details.html" style="padding: 10px 20px;">Technical Details</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Results.html" style="padding: 10px 20px;">Results</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="About-Us.html" style="padding: 10px 20px;">About Us</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Citations.html" style="padding: 10px 20px;">Citations</a>
 </li></ul>
           </div>
-          <div class="u-nav-container-collapse">
+          <div class="u-custom-menu u-nav-container-collapse">
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
               <div class="u-inner-container-layout u-sidenav-overflow">
                 <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Overview.html">Overview</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Technical-Details.html">Technical Details</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="About-Us.html">About Us</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Citations.html">Citations</a>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Overview.html" style="padding: 10px 20px;">Overview</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Technical-Details.html" style="padding: 10px 20px;">Technical Details</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Results.html" style="padding: 10px 20px;">Results</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="About-Us.html" style="padding: 10px 20px;">About Us</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Citations.html" style="padding: 10px 20px;">Citations</a>
 </li></ul>
               </div>
             </div>
@@ -75,12 +78,15 @@
                   <h2 class="u-text u-text-1">Cane Tempo Trainer</h2>
                   <p class="u-text u-text-2"> T<b>
                       <span style="font-weight: 400;">he aim of our project is to create a proof-of-concept for a tool that can help blind and/or visually impaired (B/VI) individuals and orientation and mobility (O&amp;M) instructors in their training. We are inspired by the Cane Game developed by Prof. Paul Ruvolo and the OCCaM Lab at Olin College [1].</span></b>
+                    <br>Analyzing the frequencies of the cane sweep can help train a user to be more consistent with the sweep of their cane as they are learning to navigate.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <h6 class="u-text u-text-default u-text-3"> Source: <a class="anchor-3Z-8Bb anchorUnderlineOnHover-2ESHQB u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" title="https://www.leaderdog.org/blog/is-orientation-mobility-training-right-for-me/" href="https://www.leaderdog.org/blog/is-orientation-mobility-training-right-for-me/" rel="noreferrer noopener" target="_blank" role="button" tabindex="0">https://www.leaderdog.org/blog/is-orientation-mobility-training-right-for-me/</a>
+        </h6>
       </div>
     </section>
     <section class="u-clearfix u-grey-5 u-section-2" id="sec-5663">
@@ -120,7 +126,7 @@
               </div>
               <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-white u-layout-cell-2">
                 <div class="u-container-layout u-container-layout-2">
-                  <h2 class="u-text u-text-default u-text-1">Data Analysis</h2>
+                  <h2 class="u-text u-text-default u-text-1">Motion Model</h2>
                   <p class="u-text u-text-2"> U<b>
                       <span style="font-weight: 400;">sing Fourier transforms, we analyzed the data to reconstruct the tempo of sweeping the cane back and forth. With our algorithm, O&amp;M instructors and their students can get an empirical measure of how consistent their rate of sweeping is.</span></b>
                   </p>
@@ -138,7 +144,7 @@
             <div class="u-layout-row" style="">
               <div class="u-align-center u-container-style u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-white u-layout-cell-1" src="">
                 <div class="u-container-layout u-container-layout-1">
-                  <h2 class="u-text u-text-1">Results</h2>
+                  <h2 class="u-text u-text-1">&nbsp;Expected Frequency Components</h2>
                   <p class="u-text u-text-2">We found that clean data resulted in a pair of peak frequencies in the y and z-axes. This means that the frequency of the cane sweep is consistent, which is the goal when learning how to properly navigate with a cane.</p>
                 </div>
               </div>
@@ -150,7 +156,15 @@
         </div>
       </div>
     </section>
-    <section class="u-clearfix u-grey-5 u-section-6" id="sec-c0a3">
+    <section class="u-align-center u-clearfix u-section-6" id="sec-6698">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-text-default u-text-1">Results</h1>
+        <p class="u-text u-text-2"> O<b>
+            <span style="font-weight: 400;">ur results show that our algorithm can accurately reconstruct the rate of cane sweeping from the data we collect and our analysis of the Fourier transform. This rate is useful for O&amp;M instructors and students as a metric of their sweep consistency, and it could allow more structured practice outside of lesson time.</span></b>
+        </p>
+      </div>
+    </section>
+    <section class="u-clearfix u-grey-5 u-section-7" id="sec-c0a3">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <h3 class="u-text u-text-1">Impact</h3>
         <p class="u-text u-text-2"> B<b>
