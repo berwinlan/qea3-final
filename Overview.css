@@ -12,7 +12,7 @@
 
 .u-section-1 .u-image-1 {
   min-height: 655px;
-  background-image: url("images/vector-illustration-blind-man-walking-260nw-1127182595.jpeg");
+  background-image: url("images/titleimage.jpg");
   background-position: 50% 50%;
 }
 
@@ -108,7 +108,7 @@
 }
 
 .u-section-2 .u-sheet-1 {
-  min-height: 331px;
+  min-height: 354px;
 }
 
 .u-section-2 .u-text-1 {
@@ -480,11 +480,6 @@
   width: 803px;
   font-size: 1.125rem;
   margin: 28px auto 60px;
-}
-
-.u-section-6 .u-btn-1 {
-  border-style: none none solid;
-  padding: 0;
 }
 
 @media (max-width: 991px) {

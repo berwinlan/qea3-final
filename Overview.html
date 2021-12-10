@@ -23,18 +23,14 @@
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
-		"name": "QEA 3 Final Website",
-		"logo": "images/default-logo.png"
+		"name": "QEA 3 Final Website"
 }</script>
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Overview">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
   </head>
-  <body class="u-body"><header class="u-clearfix u-header u-header" id="sec-6c8b"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <a href="https://nicepage.com" class="u-image u-logo u-image-1">
-          <img src="images/default-logo.png" class="u-logo-image u-logo-image-1">
-        </a>
+  <body class="u-body"><header class="u-clearfix u-header u-header" id="sec-6c8b"><div class="u-clearfix u-sheet u-sheet-1">
         <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
           <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
             <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
@@ -71,13 +67,14 @@
         <div class="u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
           <div class="u-layout" style="">
             <div class="u-layout-row" style="">
-              <div class="u-align-center u-container-style u-image u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-image-1" src="" data-image-width="242" data-image-height="249">
+              <div class="u-align-center u-container-style u-image u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-image-1" src="" data-image-width="1300" data-image-height="865">
                 <div class="u-container-layout u-container-layout-1" src=""></div>
               </div>
               <div class="u-align-center u-container-style u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-white u-layout-cell-2" src="">
                 <div class="u-container-layout u-container-layout-2">
-                  <h2 class="u-text u-text-1">Cane Game (but worse)</h2>
-                  <p class="u-text u-text-2"><b>The aim of our project is to create a proof-of-concept for a tool that can help blind and/or visually impaired (B/VI) individuals and orientation and mobility (O&amp;M) instructors in their training. We are inspired by the Cane Game developed by Prof. Paul Ruvolo and the OCCaM Lab at Olin College<span style="font-weight: 400;"> .</span></b>
+                  <h2 class="u-text u-text-1">Cane Tempo Trainer</h2>
+                  <p class="u-text u-text-2"> T<b>
+                      <span style="font-weight: 400;">he aim of our project is to create a proof-of-concept for a tool that can help blind and/or visually impaired (B/VI) individuals and orientation and mobility (O&amp;M) instructors in their training. We are inspired by the Cane Game developed by Prof. Paul Ruvolo and the OCCaM Lab at Olin College [1].</span></b>
                   </p>
                 </div>
               </div>
@@ -89,7 +86,8 @@
     <section class="u-clearfix u-grey-5 u-section-2" id="sec-5663">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h3 class="u-text u-text-1">Why it matters.</h3>
-        <p class="u-text u-text-2"><b>Because practice is important for mastery of a skill, we hope that this proof-of-concept can be used to help B/VI individuals in the early stages of learning how to use a white cane. Students can get objective, quantified feedback about the performance of their sweeps without the direct instruction of an O&amp;M. Furthermore, O&amp;M instructors may be able to use our tool to remotely help their students and get results without having face-to-face, active lesson time.</b>
+        <p class="u-text u-text-2"> W<b>
+            <span style="font-weight: 400;">e chose to focus on the importance of learning how to move the cane at a consistent rate. The speed should somewhat approximate that which will be reached during ambulation [2], and the cane user should walk out-of-step with their cane sweeping motion such that their forward foot is on the opposite side of their body as the cane tip [3]. The first step to this training is practicing sweeping the cane without moving, and the early stages of learning should be geared for accuracy and not speed [2].</span></b>
         </p>
       </div>
     </section>
@@ -101,7 +99,7 @@
               <div class="u-align-center u-container-style u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-white u-layout-cell-1" src="">
                 <div class="u-container-layout u-container-layout-1">
                   <h2 class="u-text u-text-1">Gathering Data</h2>
-                  <p class="u-text u-text-2">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                  <p class="u-text u-text-2">We gathered data using the MATLAB mobile app to record accelerometer data. With a phone attached to the back of the hand, we gathered data to refect the movement of the cane. We collected both "clean" and "noisy" data by going at a consistent and inconsistent frequency.</p>
                 </div>
               </div>
               <div class="u-align-center u-container-style u-image u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-image-1" src="" data-image-width="600" data-image-height="450">
@@ -123,7 +121,9 @@
               <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-white u-layout-cell-2">
                 <div class="u-container-layout u-container-layout-2">
                   <h2 class="u-text u-text-default u-text-1">Data Analysis</h2>
-                  <p class="u-text u-text-2">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                  <p class="u-text u-text-2"> U<b>
+                      <span style="font-weight: 400;">sing Fourier transforms, we analyzed the data to reconstruct the tempo of sweeping the cane back and forth. With our algorithm, O&amp;M instructors and their students can get an empirical measure of how consistent their rate of sweeping is.</span></b>
+                  </p>
                 </div>
               </div>
             </div>
@@ -139,7 +139,7 @@
               <div class="u-align-center u-container-style u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-white u-layout-cell-1" src="">
                 <div class="u-container-layout u-container-layout-1">
                   <h2 class="u-text u-text-1">Results</h2>
-                  <p class="u-text u-text-2">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                  <p class="u-text u-text-2">We found that clean data resulted in a pair of peak frequencies in the y and z-axes. This means that the frequency of the cane sweep is consistent, which is the goal when learning how to properly navigate with a cane.</p>
                 </div>
               </div>
               <div class="u-align-center u-container-style u-image u-image-contain u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-image-1" src="" data-image-width="1219" data-image-height="1600">
@@ -153,13 +153,8 @@
     <section class="u-clearfix u-grey-5 u-section-6" id="sec-c0a3">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <h3 class="u-text u-text-1">Impact</h3>
-        <p class="u-text u-text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-veniam, quis nostrud exercitation <a href="" class="u-border-2 u-border-black u-border-hover-palette-1-base u-btn u-button-style u-none u-text-body-color u-btn-1">ullamco laboris</a> nisi ut aliquip ex ea 
-commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
-velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-mollit anim id est laborum. 
+        <p class="u-text u-text-2"> B<b>
+            <span style="font-weight: 400;">ecause practice is important for mastery of a skill, we hope that this proof-of-concept can be used to help B/VI individuals in the early stages of learning how to use a white cane. Students can get objective, quantified feedback about the performance of their sweeps without the direct instruction of an O&amp;M. Furthermore, O&amp;M instructors may be able to use our tool to remotely help their students and get results without having face-to-face, active lesson time.</span></b>
         </p>
       </div>
     </section>
